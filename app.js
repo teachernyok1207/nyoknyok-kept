@@ -204,11 +204,11 @@ class App {
             <div class="toolbar">
               <i class="fa-solid fa-palette toolbar-color" data-id=${
                 note.id
-              } style="cursor: pointer; font-size: 1.25rem; color: #000"></i>
+              } style="cursor: pointer; font-size: 1.25rem; color: #000; display: none"></i>
               
               <i class="fa-regular fa-trash-can toolbar-delete" data-id=${
                 note.id
-              } style="cursor: pointer; font-size: 1.25rem; color: #000; display: none"></i>
+              } style="cursor: pointer; font-size: 1.25rem; color: #000"></i>
             </div>
           </div>
         </div>
